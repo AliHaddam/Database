@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5D40E2D-59DB-EA91-D7BF-D8CE1D663D32" containerWithKeyObject="1C16EE98-B900-E07B-7AA4-24078A2CFF05" localFKIndex="A349D57F-3B8D-ABB8-1547-4587FEDDE0BB" name="fk_VRSession_Visitor">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>A573176F-B9BC-F3E7-3052-CD3497F15908</importedID>
+<referredTableLongName>Visitor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6B00A88-3ABC-DE34-5657-0AE5591293CD</referredTableID>
+<keyObject>DDC05BD7-EDB0-ABBB-FE18-356B9E3A042D</keyObject>
+<referredKeyID>DDC05BD7-EDB0-ABBB-FE18-356B9E3A042D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>visitor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

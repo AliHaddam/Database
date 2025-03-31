@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33177CCC-CD45-8A52-1F91-C8EAEAD04807" name="Museum">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>9EEEB452-953A-5F3C-4977-6ECFEA6A621A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="museum_id" id="B106421D-3578-BA69-53C1-BD2F54BF4D94">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>7823234D-00AE-58A9-74C8-78C3B383F154</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0E9EF11E-35D9-C871-45AF-9D34C9897C13">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>CEA8C92F-8110-822A-6BCA-C63AAD6BFE90</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="21C6D06F-782E-2B40-3295-C97EEBB1AD12">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>A9B4349A-40EC-D461-B489-130336B0096B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="690974BD-7D20-FA20-A0BC-8A81014DE3E7">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>3DD66ECA-0B64-8D54-131E-35212F617BD6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opening_hours" id="33D11389-9EAC-7965-EDE7-5B855B62F2F9">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>22288A3B-3B0C-88B9-2B3F-C16B5E7E6A0F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="established_year" id="975E26B8-F4D4-A2B6-B6C1-49A3AD02B203">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>28056213-C741-843A-E07D-7F13C962BD4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0680A959-3195-4BA7-6B19-A5909910DA47" name="Museum__IDX">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>196783ED-261C-AE08-3A01-5EFC4E3EB475</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B106421D-3578-BA69-53C1-BD2F54BF4D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

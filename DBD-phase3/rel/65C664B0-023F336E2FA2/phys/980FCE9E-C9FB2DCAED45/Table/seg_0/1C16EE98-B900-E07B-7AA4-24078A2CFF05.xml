@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="VRSession" directorySegmentName="seg_0" id="1C16EE98-B900-E07B-7AA4-24078A2CFF05">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<schema>02E52A1B-8259-EFE6-CC81-2AD167B7D090</schema>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="exhibit_id" id="10A2DE4A-37BD-C006-1A45-21CB74880701">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="rating" id="5C9B9576-3654-98DF-D635-194CF82B2567">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="visitor_id" id="8295E6A0-1FF2-28BE-87B5-9DF716480503">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="end_time" id="B1B3ADFD-2DB9-891A-58DA-25D589C7307B">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="session_id" id="DFB1CD4E-00EE-52FD-B0B4-18FC7E24E7EC">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<asIdentity>true</asIdentity>
+<identityForReplication>YES</identityForReplication>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k12.ColumnProxySqlServerv2k12" name="start_time" id="F36EFD6A-F8FC-C759-4926-5D4D5465B431">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_VRSession_Exhibit" id="926818C6-2BEE-8748-B4A9-919E358F840C">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>vr meuseum</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="fk_VRSession_Visitor" id="A349D57F-3B8D-ABB8-1547-4587FEDDE0BB">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>vr meuseum</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="VRSession__IDX" id="AC50E93D-E666-4935-D965-A4C2F999E09B">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

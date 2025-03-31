@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B00A88-3ABC-DE34-5657-0AE5591293CD" name="Visitor">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>5F68A960-DAB0-7BE7-66B3-866E2B582D7F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="visitor_id" id="F4C7942D-71B7-EBA0-1364-54386915EDC5">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>2D05AA0D-917A-471B-4B78-DB0B26CB6EF0</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="327EF442-6695-4267-6121-305A4F747E64">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>6ECFCDB5-58CF-5411-5705-031FF44D37FF</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="091229C3-02CA-F0CD-D9B1-F57377C6D827">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>B257550B-8491-C6A5-919F-E00CC899B3B0</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="60ADC28C-7AB4-5BBD-7721-A1EF60F5F510">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>3D7881C1-8A4D-4CA6-EDCC-3BA84D8927BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registration_date" id="88257CBC-51F8-AC02-327E-EC7126D34B3A">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>779279A7-D892-0BB3-0A38-83DC6DB1A687</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9FBFC0BF-D5BF-BB15-A164-2FE6FA584998</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDC05BD7-EDB0-ABBB-FE18-356B9E3A042D" name="Visitor__IDX">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>2E4DF415-7B0B-C71D-5016-0264C367EACC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C7942D-71B7-EBA0-1364-54386915EDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725D105A-3FAC-80C2-517E-EBA02D7E0DF7" name="Visitor__IDXv1">
+<sourceDDLFile>vr meuseum.sql</sourceDDLFile>
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<importedID>2EDEA6C2-B505-DF34-DE43-2327C041ACBD</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="091229C3-02CA-F0CD-D9B1-F57377C6D827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

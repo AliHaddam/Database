@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B8B1F26-0020-A267-A96E-DB7C5ABABC8A" name="Exhibit">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>85ECEAB7-38CA-C793-A6A8-EC9CDF7862F7</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="exhibit id" id="BB98E77A-611B-1C12-94E1-F05F9A4FF97F">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>61C22BA1-2A24-E2E7-B6AE-F9878004247F</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="museum id" id="7D2948D7-E5F1-02D0-6A37-16D2043A00D6">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>EB03DC70-7C98-AA36-FC7B-5F7E76D65B25</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<referedAttribute>CDD2FDAB-3F95-A1F7-2557-5FB954109459</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="BD00A308-548B-1368-ECDB-53CB03AB4551">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>40855A26-1E85-2123-955E-5579FA5B5E7F</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="73A982DD-DCFB-E960-33F6-9A4B47CB54E8">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>506356C2-C97A-A1C2-8905-411588232F5E</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start date" id="CAB888ED-0294-94CD-CFA8-1370542E87E3">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>F6E686CF-670E-5FCC-8B5A-C2CBF31852E7</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9FBFC0BF-D5BF-BB15-A164-2FE6FA584998</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end date" id="C659A1DA-2FB4-0C87-410E-9B1D0D1CD460">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>98DA2766-750A-3557-1E64-E3B94DA16282</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9FBFC0BF-D5BF-BB15-A164-2FE6FA584998</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="theme" id="77B583A7-B4D6-021D-BB7B-06B954E80664">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>236C9FE3-74C2-4AF3-42EA-3F0F3074DF4C</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C984565-5EA5-3114-3477-23DA6668737A" name="Exhibit  IDX">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>E7BF44BC-25F3-7262-9769-AD4927143B5C</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB98E77A-611B-1C12-94E1-F05F9A4FF97F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

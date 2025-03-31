@@ -5,4 +5,9 @@
 <ownerDesignName>DBD-phase3</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>32288C8F-ADF0-7F1E-86F3-AA22F749DE99</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DC060598-180C-6405-F400-9DBB4A638D75">
+<designStoragePath>C:\vr meuseum</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

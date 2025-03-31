@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_Tour_Museum" directorySegmentName="seg_0" id="BD1E9659-BE35-DEAB-682B-BA5E1F7D4644">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>EE735E0E-406C-2B1C-4A9E-DF6C8401D2F4</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<sourcePk>74C2E925-7B48-6F5B-5DC5-C920F877F455</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF4B70FE-3F5F-23BF-2A55-428DFD27BB58</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D05B4F9-3BF0-35B3-BBB0-973272C1B932</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

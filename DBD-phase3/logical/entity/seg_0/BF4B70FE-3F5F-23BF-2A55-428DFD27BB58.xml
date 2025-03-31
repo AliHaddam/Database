@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF4B70FE-3F5F-23BF-2A55-428DFD27BB58" name="Museum">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>33177CCC-CD45-8A52-1F91-C8EAEAD04807</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="museum id" id="CDD2FDAB-3F95-A1F7-2557-5FB954109459">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>B106421D-3578-BA69-53C1-BD2F54BF4D94</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="69D1A708-2AC4-D196-CB34-786053B97663">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>0E9EF11E-35D9-C871-45AF-9D34C9897C13</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="2BAEC57C-846E-D29E-6712-62388D4AF669">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>21C6D06F-782E-2B40-3295-C97EEBB1AD12</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="86704F6D-B6FB-E801-0F4D-7492095CD9CC">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>690974BD-7D20-FA20-A0BC-8A81014DE3E7</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opening hours" id="D81C983A-D807-EC1D-A43C-353550759CB3">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>33D11389-9EAC-7965-EDE7-5B855B62F2F9</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="established year" id="D4B28435-E7D7-376C-B668-0976768FB135">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>975E26B8-F4D4-A2B6-B6C1-49A3AD02B203</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74C2E925-7B48-6F5B-5DC5-C920F877F455" name="Museum  IDX">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>0680A959-3195-4BA7-6B19-A5909910DA47</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDD2FDAB-3F95-A1F7-2557-5FB954109459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

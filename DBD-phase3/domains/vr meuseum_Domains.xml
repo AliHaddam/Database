@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="vr meuseum_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_0_0_0" id="0312D23F-0C51-531D-F6DA-8DA8D0D98362">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>vr meuseum_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="9FBFC0BF-D5BF-BB15-A164-2FE6FA584998">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:23:31 UTC</createdTime>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>vr meuseum_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

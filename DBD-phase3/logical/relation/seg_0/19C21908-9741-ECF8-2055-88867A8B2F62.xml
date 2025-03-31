@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_VRSession_Exhibit" directorySegmentName="seg_0" id="19C21908-9741-ECF8-2055-88867A8B2F62">
+<createdBy>Aliha</createdBy>
+<createdTime>2025-03-31 12:24:11 UTC</createdTime>
+<generatorID>B02915A1-AF13-1D80-939C-F1656BCEA75D</generatorID>
+<ownerDesignName>DBD-phase3</ownerDesignName>
+<engineerTo>
+<item key="65C664B0-8FAD-8A35-FA4A-023F336E2FA2" value="true"/>
+</engineerTo>
+<sourcePk>1C984565-5EA5-3114-3477-23DA6668737A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3B8B1F26-0020-A267-A96E-DB7C5ABABC8A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>72CB1943-3098-DA91-41FC-4293A0E6637B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
